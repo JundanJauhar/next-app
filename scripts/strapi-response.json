@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": 10,
+      "attributes": {
+        "slug": "ayam-penyet",
+        "title": "ayam penyet update",
+        "description": "ayam penyet",
+        "publishedAt": "2023-12-09T16:34:34.602Z",
+        "author": "admin",
+        "body": "ayam penyet",
+        "image": {
+          "data": {
+            "id": 6,
+            "attributes": {
+              "url": "/uploads/ayam_penyet_890bb229b9.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "slug": "keseimbangan-emosional-menyelami-keterampilan-stoikisme",
+        "title": "Keseimbangan Emosional: Menyelami Keterampilan Stoikisme",
+        "description": "Mengembangkan keseimbangan emosional melalui prinsip-prinsip stoikisme.",
+        "publishedAt": "2023-11-30T10:05:42.360Z",
+        "author": "aim",
+        "body": "Stoikisme tidak hanya mengajarkan kontrol diri, tetapi juga keseimbangan emosional. **Paragraf 1**: Stoikisme membimbing kita untuk merespons situasi dengan tenang dan penuh keterampilan. **Paragraf 2**: Dengan mengasah keterampilan ini, kita dapat menghadapi tantangan tanpa terbawa emosi. **Paragraf 3**: Dalam artikel ini, mari kita telusuri bagaimana stoikisme membantu kita mengembangkan keseimbangan emosional yang mendalam.",
+        "image": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "url": "/uploads/image_2_a53b6c4cf7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "slug": "menghadapi-kegagalan-dengan-bijak-pelajaran-dari-stoikisme",
+        "title": "Menghadapi Kegagalan dengan Bijak: Pelajaran dari Stoikisme",
+        "description": "Belajar melihat kegagalan sebagai batu loncatan menuju kesuksesan melalui pandangan stoikisme.",
+        "publishedAt": "2023-11-30T10:05:05.936Z",
+        "author": "aim",
+        "body": "Stoikisme memberikan perspektif unik tentang kegagalan. **Paragraf 1**: Stoikisme mengajarkan kita untuk melihat kegagalan sebagai bagian alami dari kehidupan dan peluang untuk belajar. **Paragraf 2**: Dengan memisahkan diri dari emosi negatif yang disebabkan oleh kegagalan, kita dapat berkembang dan tumbuh. **Paragraf 3**: Dalam artikel ini, kita akan mengeksplorasi bagaimana stoikisme dapat membimbing kita dalam menghadapi kegagalan dengan bijaksana.",
+        "image": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "url": "/uploads/image_3_c1368d2ae6.jpg"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 3,
+      "pageCount": 2,
+      "total": 6
+    }
+  }
+}
