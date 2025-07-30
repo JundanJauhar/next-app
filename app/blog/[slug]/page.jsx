@@ -7,8 +7,13 @@ import { notFound } from "next/navigation";
 export const revalidate = 30;
 
 export async function generateStaticParams() {
-  const slugs = await getSlugs();
-  return slugs.map((slug) => ({ slug }));
+  try {
+    const slugs = await getSlugs();
+    return slugs.map((slug) => ({ slug }));
+  } catch (error) {
+    console.error('Error generating static params:', error);
+    return [];
+  }
 }
 
 export async function generateMetadata({ params: { slug } }) {
@@ -23,7 +28,6 @@ export async function generateMetadata({ params: { slug } }) {
 }
 
 export default async function PostPage({ params: { slug } }) {
-  console.log("slug", slug);
   const post = await getPost(slug);
   if (!post) {
     notFound();
@@ -39,7 +43,7 @@ export default async function PostPage({ params: { slug } }) {
       </div>
       <Image
         src={post.image}
-        alt=""
+        alt={post.title}
         width={640}
         height={360}
         className="mb-2 rounded"
